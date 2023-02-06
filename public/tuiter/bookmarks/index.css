@@ -1,0 +1,120 @@
+.wd-box{
+margin: auto;
+      width: 1500px;
+      height: 1000px;
+      padding: 2px;
+      border: 2px solid rgb(47, 51, 54) ;
+ }
+
+.wd-title{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.wd-post-topic
+{
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+}
+
+hr.solid {
+  border-top: 0.4px solid rgba(211, 211, 211);
+}
+
+.avatar-container {
+  position: absolute;
+  left: 16px;
+  top: 68px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.author-container {
+  position: absolute;
+  left: 80px;
+  top: 68px;
+}
+
+.author-name {
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.author-handle {
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.author-date {
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.content {
+  color: white;
+  font-size: 15px;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.post-image {
+  width: 504px;
+  height: 264px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.caption-container {
+        padding: 12px;
+        border: 0.4px solid lightgray;
+        border-radius: 0 0 12px 12px;
+      }
+
+.caption-title {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 6px;
+      }
+
+.caption-text {
+        font-size: 15px;
+        color: lightgray;
+      }
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.icon-container a {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container i {
+  font-size: 20px;
+  color: rgb(110, 118, 125);
+  margin-right: 12px;
+}
+
+.icon-container .number {
+  font-size: 15px;
+  color: rgb(110, 118, 125);
+}
+
+.icon-container .red {
+  color: red;
+}
