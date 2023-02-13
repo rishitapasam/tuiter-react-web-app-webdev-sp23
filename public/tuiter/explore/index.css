@@ -1,9 +1,9 @@
 .wd-box{
 margin: auto;
       width: 1300px;
-      height: 1000px;
-      padding: 2px;
-      border: 2px solid rgb(47, 51, 54) ;
+      height: 1100px;
+      padding: 1px;
+      border: 1px solid rgb(47, 51, 54) ;
  }
 
 .header {
@@ -13,20 +13,20 @@ margin: auto;
 }
 
 .search-input {
-  background-color: rgba(70,70,70);
-  color: white;
-  padding: 10px 10px;
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
   border-radius: 25px ;
   font-size: 15px;
   width: 100%;
 }
 
 .settings-icon {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
+  background-color: white;
+  color: #007bff;
   padding: 12px 16px;
   border-radius: 0 24px 24px 0;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -73,15 +73,15 @@ display: flex;
   font-size: 14px;
 }
 .post-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-left: 16px;
-  margin-right: 16px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 hr.solid {
-  border-top: 3px solid rgba(70,70,70);
+  border-top: 1px solid rgba(70,70,70);
 }
 
 .wd-sfont{
@@ -89,3 +89,86 @@ color: rgb(255,255,255);
   font-size: 16px;
 }
 
+.custom-nav {
+  background-color: white;
+  padding: 0.1px;
+  display: flex;
+}
+
+
+
+
+.list-group-item .list-group-image {
+  width: 600px;
+  height: 400px;
+  padding: 0px;
+
+}
+.image-text {
+                      display: flex;
+                      align-items: center;
+                      }
+
+.btn btn-primary{
+    border-radius: 50px
+    }
+
+.font1{
+font-weight: bold;
+font-size: 15px}
+
+.font2{
+font-size: 14px}
+
+.button{
+border-radius: 50px;
+background-color: royalblue;
+height: 50px;
+width: 200px}
+
+
+
+.container2 {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+.fontl{
+font-size: 14px
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+  }
+
+.my-list-group {
+    background-color: #f2f2f2;
+  }
+
+
+
+.button2{
+background-color: royalblue;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+}
+
+.button2:hover{
+background-color: #808080;
+}
