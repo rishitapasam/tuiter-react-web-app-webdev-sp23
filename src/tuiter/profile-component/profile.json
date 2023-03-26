@@ -1,0 +1,14 @@
+[{"_id": 123,
+  "userName": "RishitaPasam",
+  "handle": "@rpasam",
+  "profilePicture": "profilepic.jpg",
+  "bannerPicture": "bannerpic.jpg",
+  "bio": "MSDS Student at Northeastern University",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",
+  "dateOfBirth": "2/3/2000",
+  "dateJoined": "2/2021",
+  "followingCount": "340",
+  "followersCount": "223"
+}]
+

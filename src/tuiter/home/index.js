@@ -2,7 +2,7 @@ import React from "react";
 import hpostArray from './hpost.json';
 import PostItem
   from "./hpostitem";
-import who from "../who-to-follow-list/who.json";
+import who from "../data/who.json";
 
 
 const PostList = () => {
