@@ -1,5 +1,5 @@
 [{ "_id": 123,
-  "avatarIcon": "spacex.jpg",
+  "image": "spacex.jpg",
   "userName": "SpaceX",
   "handle": "@spacex",
   "time": "2h",
@@ -11,7 +11,7 @@
 },
 
   { "_id": 234,
-    "avatarIcon": "Tesla.jpg",
+    "image": "Tesla.jpg",
     "userName": "Tesla",
     "handle": "@tesla",
     "time": "4d",
@@ -23,7 +23,7 @@
   },
 
   { "_id": 345,
-    "avatarIcon": "spacex.jpg",
+    "image": "spacex.jpg",
     "userName": "SpaceX",
     "handle": "@spacex",
     "time": "1d",

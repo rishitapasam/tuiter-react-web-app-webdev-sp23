@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import TuitsList from "../tuits/TuitList";
 import WhatsHappening from "./whats-happening";
