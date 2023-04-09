@@ -10,29 +10,31 @@ const currentUser = {
  "image": "nasa.jpg",
 };
 
-const templateTuit = {
- ...currentUser,
- "topic": "Space",
- "title": "x",
- "time": "2h",
- "liked": false,
- "replies": 0,
- "retuits": 0,
- "likes": 0,
- "dislikes": 0,
- "disliked": false
-
-}
+//const templateTuit = {
+// ...currentUser,
+// "topic": "Space",
+// "title": "x",
+// "time": "2h",
+// "liked": false,
+// "replies": 0,
+// "retuits": 0,
+// "likes": 0,
+// "dislikes": 0,
+// "disliked": false
+//
+//}
 
 const WhatsHappening = () => {
  let [whatsHappening, setWhatsHappening] = useState('');
  const dispatch = useDispatch();
  const tuitClickHandler = () => {
    const newTuit = {
-        ...templateTuit,
+//        ...templateTuit,
         title: whatsHappening
       }
       dispatch(createTuitThunk(newTuit));
+      console.log(whatsHappening);
+//        dispatch(createTuit(newTuit));
 
  }
  return (

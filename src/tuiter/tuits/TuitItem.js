@@ -15,25 +15,14 @@ library.add( faSolidHeart);
 
 const TuitItem = (
  {
-   tuit = {
-//     "avatarIcon": "elonm.jpg",
-//              "userName": "Elon Musk",
-//              "handle": "@elonmusk",
-//              "time": "23h",
-//              "title": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
-//              "comments":"4.2k",
-//              "retuits":"3.5k",
-//              "likes":"37.5k",
-//               "liked":false,
-
-   }
+   tuit
  }
 ) => {
 const dispatch = useDispatch();
 const deleteTuitHandler = (id) => {
   dispatch(deleteTuitThunk(id));
 }
-
+console.log(tuit);
  return(
   <ul>
      <li className="list-group-item">
